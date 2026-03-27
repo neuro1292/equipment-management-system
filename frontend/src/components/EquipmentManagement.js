@@ -53,7 +53,7 @@ function EquipmentManagement() {
         approvedBy: ''
     });
 
-    const API_URL = 'http://localhost:5001/api/equipment';
+    const API_URL = 'https://equipment-management-backend.onrender.com/api/equipment';
 
     useEffect(() => {
         fetchEquipment();
